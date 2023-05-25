@@ -1,0 +1,123 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Courier New', Courier, monospace
+}
+
+    ul {
+        z-index: 999;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding-top:15px ;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        overflow: hidden;
+        background-color: white;
+        
+    }
+
+    .judul{
+        float: left;
+    }
+    
+    li {
+    float: right;
+    font-size: large;
+    }
+
+    li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+    .home{
+        background-color: rgb(139, 196, 246);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .title{
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+    .isi{
+        margin-top: -20px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: aliceblue;
+        
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        float: left;
+        width: 20%;
+        padding: 0 10px;
+        margin: 0 -5px;
+    }
+    img{
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+    }
+    .des{
+        padding: 2px 16px;
+    }
+    button{
+        float: right;
+        margin-bottom: 15px;
+        margin-top: -25px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(182, 255, 248);
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        font-weight:bold;
+        color: rgb(65, 64, 64);
+    }
+    .sidebar{
+        margin-right: 50px;
+        
+        
+    }
+    .items a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;            
+    }        
+    @media screen and (max-width: 800px) {
+    ul,li,li a{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    ul,li,li a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .judul{
+        text-align: center;
+    }
+}
+

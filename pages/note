@@ -1,0 +1,5 @@
+@media screen and (max-width: 800px) {
+    html,body,ul,li,li a, .home, .title, .isi, .cards, .card, img, .des, button, .sidebar, .items a {
+        width: 100%;
+    }
+    }
